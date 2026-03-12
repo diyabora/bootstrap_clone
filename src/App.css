@@ -1,0 +1,146 @@
+:root {
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-primary-rgb: 113, 44, 249;
+    --bd-accent-rgb: 255, 228, 132;
+    --bd-violet-rgb: 238, 130, 238;
+    --bd-pink-rgb: 255, 192, 203;
+    --primary-color: rgb(113 44 249 / 95%);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: sticky !important;
+    top: 0 !important;
+    background-color: var(--primary-color);
+}
+
+.navbar-nav>.nav-item>.nav-link {
+    color: #ffffffd9;
+    font-size: 16px;
+}
+
+.navbar-nav {
+    justify-content: baseline;
+}
+
+.diya {
+    background-color: #ffe484 !important;
+}
+
+.detail {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.para {
+    color: rgb(33 37 41 / 75%);
+    font-size: 24px;
+}
+
+.button-1 {
+    font-size: 17.5px !important;
+    padding: 16px 30px !important;
+    background-color: rgb(33 37 41 / 8%) !important;
+    color: black !important;
+    ;
+}
+
+.button-2 {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    padding: 16px 30px !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+
+}
+
+.dashboard {
+    background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), .01), rgba(var(--bs-body-bg-rgb), 1) 85%), radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), .5), transparent 50%), radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), .5), transparent 50%), radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), .5), transparent 50%), radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), .5), transparent 50%);
+    height: 100vh;
+}
+
+.version {
+    color: rgb(33 37 41 / 75%) !important;
+}
+
+.img-para {
+    font-size: 13px;
+}
+
+code{
+    color: black !important;
+}
+
+.code {
+    padding: 16px;
+    color: var(--primary-color) !important;
+    background-color: rgba(113, 44, 249, 0.1) !important;
+}
+
+.heading-para {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.paras {
+    font-size: 20px;
+    color: rgb(33 37 41);
+}
+
+.package-cdn {
+    /* gap: 87px; */
+    width: 1331px;
+    justify-content: center;
+}
+
+.highlight{
+    font-family: monospace!important
+}
+
+.border-right{
+    border-right: 2px solid rgb(33 37 41 / 25%);
+}
+.punctuation{
+    color:#ab296a;
+
+}
+.element{
+    color:rgb(198 48 62);
+   
+}
+.discription{
+    color:#084298 ;
+}
+
+.graphic-object{
+    background-color: rgb(13 110 253 / 10%) !important;
+  color:rgb(13 110 253)!important;
+  width:fit-content;
+}
+
+.distance{
+    margin-right: 23rem;
+}
+
+.distance2{
+    margin-right: 27rem;
+}
+
+.curly-braces{
+    width:fit-content;
+    background-color: rgb(214 51 132 / 10%);
+}
